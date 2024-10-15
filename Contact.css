@@ -1,0 +1,219 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 595px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  margin: 169px auto 60px;
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+}.u-section-2 {
+  background-image: linear-gradient(#becfed, #45546f);
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 760px;
+}
+
+.u-section-2 .u-shape-1 {
+  width: 948px;
+  height: 228px;
+  margin: 250px auto 0;
+}
+
+.u-section-2 .u-group-1 {
+  width: 827px;
+  min-height: 640px;
+  background-image: none;
+  margin: -418px auto 60px;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 30px 20px;
+}
+
+.u-section-2 .u-text-1 {
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 2.25rem;
+  margin: 9px 10px 0;
+}
+
+.u-section-2 .u-form-1 {
+  height: 526px;
+  margin: 0 83px 0 0;
+}
+
+.u-section-2 .u-input-1 {
+  font-size: 1.25rem;
+}
+
+.u-section-2 .u-input-2 {
+  font-size: 1.25rem;
+}
+
+.u-section-2 .u-form-group-3 {
+  margin-left: 0;
+}
+
+.u-section-2 .u-input-3 {
+  font-size: 1.25rem;
+}
+
+.u-section-2 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-section-2 .u-input-4 {
+  font-size: 1.25rem;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  border-style: none;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 751px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    width: 940px;
+  }
+
+  .u-section-2 .u-form-1 {
+    width: 703px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-shape-1 {
+    width: 720px;
+  }
+
+  .u-section-2 .u-group-1 {
+    width: 642px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 19px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-form-1 {
+    width: 582px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 360px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    width: 640px;
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+
+  .u-section-2 .u-group-1 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-form-1 {
+    width: 500px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 879px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    width: 384px;
+    height: 290px;
+    margin-top: 188px;
+    margin-left: -22px;
+    margin-right: -22px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-2 .u-form-1 {
+    width: 320px;
+  }
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: none; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  border-color: #becfed;
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email],select,textarea{
+  width: 100%;
+  padding: 12px; /* Some padding */ 
+  border: none; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=text]:focus, select, textarea {
+  border: 3px solid rgb(216, 208, 208);
+}
+
+/* Style the submit button  */
+button[type=submit] {
+  background-color:burlywood;
+  font-weight: 400;
+  color: rgb(98, 25, 25);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type=submit]:hover {
+  background-color: rgb(139, 97, 29);
+}
+ 
+.contact-form {
+  border-radius: 5px;
+  border: 2px;
+  border-color: #ccc;
+  background-color: #252424;
+  padding: 20px;
+}
+.text-center{
+  font-size: 50px;
+ 
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: lightcyan;
+}

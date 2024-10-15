@@ -1,0 +1,246 @@
+.u-section-1-1 {
+  background-image: none;
+}
+
+.u-section-1-1 .u-sheet-1 {
+  min-height: 702px;
+}
+
+.u-section-1-1 .u-layout-wrap-1 {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.u-section-1-1 .u-layout-cell-1 {
+  min-height: 758px;
+  margin-top: 0;
+}
+
+.u-section-1-1 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-1-1 .u-btn-1 {
+  border-style: solid;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 52px 223px 0 auto;
+}
+
+.u-section-1-1 .u-btn-2 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: -49px 32px 0 auto;
+  padding: 10px 22px 10px 21px;
+}
+
+.u-section-1-1 .u-text-1 {
+  font-size: 6rem;
+  margin: 68px 143px 0 0;
+}
+
+.u-section-1-1 .u-text-2 {
+  font-weight: 400;
+  margin: 0 0 0 143px;
+}
+
+.u-section-1-1 .u-image-1 {
+  width: 472px;
+  height: 236px;
+  margin: 154px 11px 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1-1 .u-sheet-1 {
+    min-height: 412px;
+  }
+
+  .u-section-1-1 .u-layout-wrap-1 {
+    position: relative;
+  }
+
+  .u-section-1-1 .u-layout-cell-1 {
+    min-height: 625px;
+  }
+
+  .u-section-1-1 .u-btn-1 {
+    margin-right: 89px;
+  }
+
+  .u-section-1-1 .u-btn-2 {
+    border-style: none none solid;
+    margin-right: 0;
+  }
+
+  .u-section-1-1 .u-text-1 {
+    margin-top: 136px;
+    margin-right: 10px;
+  }
+
+  .u-section-1-1 .u-text-2 {
+    margin-top: 115px;
+    margin-left: 0;
+  }
+
+  .u-section-1-1 .u-image-1 {
+    height: 242px;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1-1 .u-sheet-1 {
+    min-height: 557px;
+  }
+
+  .u-section-1-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1-1 .u-btn-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1-1 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1-1 .u-text-2 {
+    margin-top: 113px;
+  }
+
+  .u-section-1-1 .u-image-1 {
+    width: 480px;
+    height: 240px;
+    margin-top: 102px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1-1 .u-sheet-1 {
+    min-height: 160px;
+  }
+
+  .u-section-1-1 .u-text-2 {
+    margin-top: 266px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1-1 .u-sheet-1 {
+    min-height: 710px;
+  }
+
+  .u-section-1-1 .u-text-1 {
+    margin-top: 96px;
+  }
+
+  .u-section-1-1 .u-text-2 {
+    margin-top: 206px;
+  }
+
+  .u-section-1-1 .u-image-1 {
+    width: 340px;
+    height: 170px;
+    margin-top: 114px;
+    margin-right: 0;
+  }
+}.u-block-4532-2 {
+  position: absolute;
+  bottom: 10px;
+  width: auto;
+  height: auto;
+}
+
+.u-block-4532-3 {
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.u-block-4532-4 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: auto;
+  right: 0;
+}.u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 1012px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 3.75rem;
+  margin: 101px auto 0 28px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: none; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  border-color: #becfed;
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email],select,textarea{
+  width: 100%;
+  padding: 12px; /* Some padding */ 
+  border: none; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=text]:focus, select, textarea {
+  border: 3px solid rgb(216, 208, 208);
+}
+/* Style the submit button  */
+input[type=submit] {
+  background-color:burlywood;
+  font-weight: 400;
+  color: rgb(98, 25, 25);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: rgb(139, 97, 29);
+}
+input[type=number]{
+  background-color: burlywood;
+  color:brown;
+}
+ 
+input[type=email]{
+  border: none;
+  border-bottom: rebeccapurple;
+  background-color: #252424;
+  color:burlywood;
+}
+.form-group {
+ width: 100%;
+  background-color: #252424;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  color:antiquewhite;
+
+ 
+}
+.text-center{
+  font-size: 50px;
+  background-color: #252424;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: lightcyan;
+}
